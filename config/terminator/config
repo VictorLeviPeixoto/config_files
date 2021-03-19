@@ -1,0 +1,42 @@
+[global_config]
+  title_inactive_fg_color = "#eeeeec"
+  title_inactive_bg_color = "#000000"
+  suppress_multiple_term_dialog = True
+[keybindings]
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  split_horiz = <Alt>i
+  split_vert = <Alt>u
+  resize_up = <Primary><Shift>k
+  resize_down = <Primary><Shift>j
+  resize_left = <Primary><Shift>l
+  resize_right = <Primary><Shift>h
+  layout_launcher = <Alt>p
+[profiles]
+  [[default]]
+    cursor_color = "#eeeeec"
+    font = Ubuntu Mono 10
+    foreground_color = "#ffffff"
+    scrollback_lines = 1000
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[Transparente]]
+    background_darkness = 0.41
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 10
+    foreground_color = "#ffffff"
+    scrollback_lines = 505
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

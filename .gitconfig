@@ -5,3 +5,4 @@
 	helper = cache --timeout 1200
 [core]
 	excludesfile = /home/victor/.gitignore
+	editor = vim

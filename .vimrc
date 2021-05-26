@@ -81,6 +81,8 @@ if !has('gui_running')
   set t_Co=256
 endif
 
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+
 set number
 set tabstop=2
 set shiftwidth=2

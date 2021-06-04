@@ -81,3 +81,8 @@ export NODE_TLS_REJECT_UNAUTHORIZED='0'
 
 export JAVA_HOME="/usr/java/jdk1.8.0_221/"
 alias horas='while :; do printf  '%s''%s' '$(clear)'"$(cal)" "$(date +%T)"; sleep 1 ; done'
+
+mkcd () {
+  mkdir "$1"
+  cd "$1"
+}

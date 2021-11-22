@@ -78,8 +78,9 @@ if ! shopt -oq posix; then
 fi
 
 export NODE_TLS_REJECT_UNAUTHORIZED='0'
+export PDSH_RCMD_TYPE=ssh
 
-export JAVA_HOME="/usr/java/jdk1.8.0_221/"
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64/"
 alias horas='while :; do printf  '%s''%s' '$(clear)'"$(cal)" "$(date +%T)"; sleep 1 ; done'
 
 mkcd () {
